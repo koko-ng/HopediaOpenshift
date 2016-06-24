@@ -21,14 +21,14 @@ mongo.connect(url, function(err, database) {
 		database: database,
 		secret: '128-bit',
 		port:8081,
-		hostname:'localhost',
+		hostname: server_ip_address,
 	});
 
 	server({
 		database: database,
 		secret: '128-bit',
-		port:8080,
-		hostname:'localhost',
+		port:server_port,
+		hostname: server_ip_address,
 		mailURI: process.env.OPENSHIFT_MAIL_URI
 	});
 });
