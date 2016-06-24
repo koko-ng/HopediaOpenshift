@@ -1,0 +1,17 @@
+{
+  "name": "hopedia_basic_launcher",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "koko-ng",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "hopedia_api": "koko-ng/HopediaApi.git#v0.1.0",
+    "hopedia_web_server": "koko-ng/HopediaWebServer.git#v0.1.0",
+    "mongodb": "^2.1.18"
+  },
+  "devDependencies": {},
+  "description": ""
+}
